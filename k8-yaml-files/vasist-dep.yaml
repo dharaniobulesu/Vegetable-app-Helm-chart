@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: veg-deployment
-  namespace: vasist-ns
+  namespace: dharani-ns
 spec:
   replicas: 2
   selector:
