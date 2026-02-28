@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: vegetable-app-mongodb
-  namespace: vasist-ns
+  namespace: dharani-ns
 spec:
   replicas: 1
   selector:
